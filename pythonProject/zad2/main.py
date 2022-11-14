@@ -22,12 +22,12 @@ if __name__ == '__main__':
                 'name': name,
                 'post': post,
                 'data': datas,
-            }
+                }
 
             spisok.append(spisok_new)
 
             if len(spisok) > 1:
-                spisok.sort(key=lambda item: item.get('data', ''))
+                spisok.sort(key = lambda item: item.get('data', ''))
 
         elif command == 'list':
 
