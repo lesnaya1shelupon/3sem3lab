@@ -1,3 +1,6 @@
+#!/usr/bin/env  python3
+# -*- coding: utf-8 -*-
+
 def table_nam(kykes):
     post = []
     for idx_new, spisok_new_new in enumerate(kykes, 1):
