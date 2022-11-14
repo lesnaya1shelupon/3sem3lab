@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
-#!/usr/bin/env  python3
+def say_name(name, surname):
 
-if __name__ == '__main__':
-    def say_name(name, surname):
+    
+    def sname():
+        print("Уважаемый " + surname + 
+        " " + name + "! Вы делаете работу по замыканиям функций.")
 
-
-        def sname():
-            print("Уважаемый " + surname + 
-            " " + name + "! Вы делаете работу по замыканиям функций.")
-        return sname
+    return sname
