@@ -21,7 +21,8 @@ if __name__ == '__main__':
                 'surname': surname,
                 'name': name,
                 'post': post,
-                'data': datas, }
+                'data': datas,
+            }
 
             spisok.append(spisok_new)
 
@@ -59,8 +60,7 @@ if __name__ == '__main__':
             print('Список команд:\n')
             print('add - добавить пользователя.')
             print('list - вывести список пользователей.')
-            print('find <Знак зодиака> - запросить пользователей 
-                  по знаку Зодиака.')
+            print('find <Знак зодиака> - запросить пользователей по знаку Зодиака.')
             print('help - Справочник.')
             print('exit - Завершить пработу программы.')
         else:
