@@ -66,3 +66,4 @@ if __name__ == '__main__':
         else:
             print(f'Команда <{command}> не существует.', file=sys.stderr)
             print('Введите <help> для просмотра доступных команд')
+            
