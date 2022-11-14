@@ -5,4 +5,4 @@ if __name__ == '__main__':
     (name, surname) = input().split()
     n = say_name(name, surname)
     n()
-    
+   
