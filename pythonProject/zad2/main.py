@@ -21,13 +21,12 @@ if __name__ == '__main__':
                 'surname': surname,
                 'name': name,
                 'post': post,
-                'data': datas,
-                }
+                'data': datas, }
 
             spisok.append(spisok_new)
 
             if len(spisok) > 1:
-                spisok.sort(key = lambda item: item.get('data', ''))
+                spisok.sort(key=lambda item: item.get('data', ''))
 
         elif command == 'list':
 
@@ -60,10 +59,10 @@ if __name__ == '__main__':
             print('Список команд:\n')
             print('add - добавить пользователя.')
             print('list - вывести список пользователей.')
-            print('find <Знак зодиака> - запросить пользователей по знаку Зодиака.')
+            print('find <Знак зодиака> - запросить пользователей 
+                  по знаку Зодиака.')
             print('help - Справочник.')
             print('exit - Завершить пработу программы.')
         else:
             print(f'Команда <{command}> не существует.', file=sys.stderr)
             print('Введите <help> для просмотра доступных команд')
-            
