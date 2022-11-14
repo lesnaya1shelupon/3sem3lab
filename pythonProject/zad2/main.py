@@ -1,3 +1,5 @@
+#!/usr/bin/env  python3
+
 import sys
 from package import table, table_name, table_nam
 
