@@ -12,5 +12,5 @@ def table_nam(kykes):
                 spisok_new_new.get('name', ''),
                 spisok_new_new.get('post', 0) 
                 )
-            )
+        )
     return post
